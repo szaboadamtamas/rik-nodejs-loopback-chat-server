@@ -1,0 +1,12 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDev": {
+    "url": "mongodb://localhost",
+    "database": "chatdemo_3",
+    "name": "mongoDev",
+    "connector": "mongodb"
+  }
+}
