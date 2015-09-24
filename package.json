@@ -6,6 +6,7 @@
     "pretest": "jshint ."
   },
   "dependencies": {
+    "async": "^1.4.2",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "errorhandler": "^1.1.1",
@@ -25,5 +26,17 @@
     "type": "",
     "url": ""
   },
-  "description": "rik-nodejs-loopback-chat-server"
+  "description": "rik-nodejs-loopback-chat-server",
+  "bundleDependencies": [
+    "async",
+    "compression",
+    "cors",
+    "errorhandler",
+    "loopback",
+    "loopback-boot",
+    "loopback-connector-mongodb",
+    "loopback-datasource-juggler",
+    "loopback-explorer",
+    "serve-favicon"
+  ]
 }

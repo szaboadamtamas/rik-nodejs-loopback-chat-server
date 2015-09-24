@@ -13,7 +13,26 @@
     }
   },
   "validations": [],
-  "relations": {},
-  "acls": [],
+  "relations": {
+    "messages": {
+      "type": "hasMany",
+      "model": "Message",
+      "foreignKey": "roomId"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY",
+      "property": [
+        "__create__messages",
+        "__delete__messages",
+        "__destroyById__messages",
+        "__updateById__messages"
+      ]
+    }
+  ],
   "methods": []
 }

@@ -6,6 +6,7 @@ Live Loopback chat server demo
 
 ## How to run:
 
+* Install dependencies: npm install
 * Start mongo db locally: mongod --dbpath <path>
 * Run application: slc run
 

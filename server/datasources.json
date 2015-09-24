@@ -4,8 +4,8 @@
     "connector": "memory"
   },
   "mongoDev": {
-    "url": "mongodb://localhost",
-    "database": "chatdemo_3",
+    "url": "mongodb://localhost/",
+    "database": "chatdemo_loopback",
     "name": "mongoDev",
     "connector": "mongodb"
   }
